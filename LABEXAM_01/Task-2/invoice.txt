@@ -1,0 +1,15 @@
+Ice Cream Shop Invoice
+=======================
+Flavors:
+Mint Chocolate Chip - 2 scoop(s): $5.60
+Chocolate Fudge - 1 scoop(s): $3.00
+Toppings:
+Sprinkles - 3 time(s): $0.90
+Chocolate Chips - 2 time(s): $1.00
+Subtotal: $10.50
+Tax: $0.84
+Total Amount Due: $11.34
+Message from the shop:
+Enjoy your ice cream!
+=======================
+Thank you for visiting our ice cream shop!
