@@ -1,0 +1,21 @@
+In Line 4-5 , Large Class: The Warehouse class uses public fields instead of encapsulating data with private fields.
+
+In the names of all classes: Poor naming conventions: Capitalized is preffered.
+
+In Line 1-198: In inventorysystem class : long class,long Method and in methods long parameterlist is seen. 
+
+In Line 41-155: In inventorysystem class : conditional complexity is seen. 
+
+Line 49–53, In inventorysystem: The addProduct method depends on globalInventoryData.So, message chaining is seen
+
+
+Line 122-135, Feature Envy: Methods like calculateWarehouseValue and calculateCategoryValue access data from globalInventoryData directly
+
+Line 132-155, Long Method: The processOrder method is  long and performs multiple responsibilities 
+
+Line 170-197, Duplicate Code: The GenerateInventoryReport and GenerateSalesReport methods share similar logic for appending data to a StringBuilder. 
+
+Line 8-25, Main Method Overload: We could use factory class or write test case.
+Line 9-16, Global Variables: The globalInventoryData class uses global variables for managing state, leading to tight coupling and making it harder to manage concurrency or scaling.
+
+Line 16-19, Dead Code: The calculateDiscount method in globalInventoryData is unused in the rest of the code.
